@@ -1,0 +1,9 @@
+*.pyc
+/NetPyNE/HHTut/*.pkl
+*.dat
+/NetPyNE/HHTut/HHTut.net.nml
+/NetPyNE/HHTut/HHTut_data.json
+/NetPyNE/HHTut/HHTut_plot_2Dnet.png
+/NetPyNE/HHTut/HHTut_raster.png
+/NetPyNE/HHTut/HHTut_traces.png
+/NetPyNE/HHTut/LEMS_HHTut.xml
