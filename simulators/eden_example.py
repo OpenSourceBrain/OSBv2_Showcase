@@ -22,12 +22,13 @@ times = results['t']
 ax = pynml.generate_plot(
     [times, times],  # Add 2 sets of x values
     [pyr_v, bask_v],  # Add 2 sets of y values
-    "Saved data from simulation of %s"%filename,  # Title
+    "Data from simulation in EDEN of %s"%filename,  # Title
     labels=['Pyr 0 soma','Bask 0 soma'],
     legend_position = "right",
     xaxis="Time (s)",  # x axis legend
     yaxis="Membrane potential (V)",  # y axis legend
     show_plot_already=False,  # Show or wait for plt.show()?
     font_size=10,  # Font
+    title_above_plot = True,
     save_figure_to="eden_example.png",
 )  # Save figure
