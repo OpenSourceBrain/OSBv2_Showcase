@@ -9,3 +9,6 @@
 /NetPyNE/HHTut/LEMS_HHTut.xml
 /notebooks/.ipynb_checkpoints
 /simulators/brian2_example.png
+*_code.gen.c
+*_code.gen.so
+/simulators/eden_example.png
