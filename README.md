@@ -1,5 +1,5 @@
 
-![OSBv2.png](images/OSBv2.png)
+![OSBv2.png](https://github.com/OpenSourceBrain/OSBv2_Showcase/raw/main/images/OSBv2.png)
 
 # OSBv2 Showcase
 
