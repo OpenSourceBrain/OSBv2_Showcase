@@ -13,3 +13,9 @@
 /simulators/eden_example.png
 /simulators/.ipynb_checkpoints
 /notebooks/HH/.ipynb_checkpoints/
+/NeuroML2/ACnet2/*.mod
+*_nrn.py
+arm64/.libs/libnrnmech.so
+arm64
+/NeuroML2/ACnet2/*.hoc
+/NeuroML2/ACnet2/simulator.props
