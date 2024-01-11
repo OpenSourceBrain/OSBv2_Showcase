@@ -3,6 +3,6 @@
 
 # OSBv2 Showcase
 
-Showcasing some of the features of OSBv2.
+Showcasing some of the great features of OSBv2.
 
 See https://docs.opensourcebrain.org/OSBv2/Guided_tour for more details...
