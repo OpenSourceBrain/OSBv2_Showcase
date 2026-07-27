@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="network_ACnet2">
 
+    <notes>
+
+Network structure (NeuroML 2beta4) for project: ACnet2 saved with neuroConstruct v1.7.1 on: 16:08:20, 22-Oct-14
+
+Cell Group: pyramidals_48 contains 48 cells
+Cell Group: baskets_12 contains 12 cells
+
+Network connection: SmallNet_bask_bask contains 60 individual synaptic connections
+Network connection: SmallNet_bask_pyr contains 336 individual synaptic connections
+Network connection: SmallNet_pyr_pyr contains 336 individual synaptic connections
+Network connection: SmallNet_pyr_bask contains 252 individual synaptic connections
+
+
+    </notes>
+
+
+    <include href="AMPA_syn.synapse.nml"/>
+    <include href="AMPA_syn_inh.synapse.nml"/>
+    <include href="bask.cell.nml"/>
+    <include href="Ca_conc.nml"/>
+    <include href="Ca_pyr.channel.nml"/>
+    <include href="GABA_syn.synapse.nml"/>
+    <include href="GABA_syn_inh.synapse.nml"/>
+    <include href="Kahp_pyr.channel.nml"/>
+    <include href="Kdr_bask.channel.nml"/>
+    <include href="Kdr_pyr.channel.nml"/>
+    <include href="LeakConductance_bask.channel.nml"/>
+    <include href="LeakConductance_pyr.channel.nml"/>
+    <include href="Na_bask.channel.nml"/>
+    <include href="Na_pyr.channel.nml"/>
+    <include href="pyr_4_sym.cell.nml"/>
 
     <pulseGenerator id="BackgroundRandomIClamps" delay="0.0s" duration="100.0s" amplitude="6.0E-10A"/>
 
